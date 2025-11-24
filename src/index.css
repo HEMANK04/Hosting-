@@ -9,6 +9,4 @@
   --color-primary:#6366f1;
   --color-dark:#1f2937;
 }
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+
