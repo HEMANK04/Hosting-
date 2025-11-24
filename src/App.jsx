@@ -12,12 +12,11 @@ import Footer from "./components/Footer";
 const App = () => {
   const location = useLocation();
 
-  // Auth page par header/footer hide karna hai
-  const hideHeaderFooter = location.pathname === "/auth";
+
+  const hideHeaderFooter = location.hash === "#/auth";
 
   return (
     <div>
-      {/* Auth page par hide, baaki sab par show */}
       {!hideHeaderFooter && <Navbar />}
 
       <Routes>
@@ -33,6 +32,5 @@ const App = () => {
     </div>
   );
 };
-
 
 export default App;
