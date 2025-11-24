@@ -1,6 +1,6 @@
 import React from "react";
 import { Route, Routes, useLocation } from "react-router-dom";
-import Home from "./pages/home";
+import Home from "./pages/Home";
 import Hosting from "./pages/Hosting";
 import Domain from "./pages/Domain";
 import Contact from "./pages/Contact";
